@@ -5,12 +5,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+<style>
+    .service-card {
+        background: #fff;
+        border-radius: 10px;
+        text-align: center;
+       font-family: 'LongaIberica-DEMO';
+       font-size: 1.2rem;
+    }
+
+    .service-img-container {
+        height: 220px;
+        overflow: hidden;
+    }
+
+    .service-img-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.4s;
+    }
+
+    .service-card:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        border: 1px solid #c2a96b;
+    }
+
+    .service-card:hover {
+        color: #c2a96b;
+    }
+
+    .service-title {
+        font-family: 'LongaIberica-DEMO';
+        color: #c2a96b;
+    }
+
+    .service-heading {
+        font-family: 'Azonix';
+    }
+
+    .service-divider {
+        border-top: 2px solid #c2a96b;
+    }
+</style>
 
 <body>
-
+    <a href="index.html"
+        style="position: absolute; top: 20px; left: 20px; text-decoration: none; color: #8d6e63; font-weight: bold;">
+        <i class="fa-solid fa-arrow-left"></i> Back to home
+    </a>
+    <section class="py-5">
+        <div class="container mt-5">
+            <h2 class="text-center mb-5 services-title" style="font-family: 'LongaIberica-DEMO'; letter-spacing: 3px; font-size: 4rem;">OUR SERVICES</h2>
+            <p class="text-center mb-5 services-title" style="font-family: 'LongaIberica-DEMO'; font-size: 1.7rem;">Welcome to our event planning services! We specialize in creating
+                unforgettable experiences for all
+                your special occasions.</p>
+            <div class="row g-4">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/wedding.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Wedding Planning</h4>
+                            <p>Elegant designs for your special day.</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4" style="margin-top: 10px;">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/Bachelor party.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Bachelor Parties</h4>
+                            <p>Unforgettable nights with premium setups.</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 " style="margin-top: 10px;">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/marriageanniversary.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Corporate Events</h4>
+                            <p>Professional planning for business galas.</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4" style="margin-top: 10px;">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/postwedding.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Post-Wedding Planning</h4>
+                            <p>Elegant designs for your special day.</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4" style="margin-top: 10px;">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/birthday.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Birthday Party</h4>
+                            <p>You're older today than yesterday but younger than tomorrow, happy birthday!.</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4" style="margin-top: 10px;">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/party.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Party</h4>
+                            <p>This is my moment I just feel so alive.</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 " style="margin-top: 10px;">
+                <div clsss="col-md-4">
+                    <div class="card  service-card border-0 shadow-sm overflo-hidden">
+                        <div class="service-img-container">
+                            <img src="/images/festival.jpg" class="card-img-top" alt="wedding">
+                        </div>
+                        <div>
+                            <h4>Festival Events</h4>
+                            <p>Festivals are joyous occasions for connection, light, and celebration, bringing people
+                                together to create lasting memories..</p>
+                            <hr class="w-25 mx-auto service-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
