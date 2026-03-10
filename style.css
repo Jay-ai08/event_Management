@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('../fonts/Azonix.otf');
+}
+@font-face {
+    font-family: 'LongaIberica-DEMO';
+    src: url('../fonts/LongaIberica-DEMO.ttf');
+}
+.hero-section {
+    background-color: #1d3324;
+    padding: 100px 0px;
+    min-height: 500px;
+
+}
+.btn{
+    font-family: 'LongaIberica-DEMO';
+      font-size: 2.4rem;
+      padding-top: 1px;
+      padding-bottom: 1px;
+}
+.nav-link{
+        font-family: 'LongaIberica-DEMO';
+        font-size: 2.6rem;
+        font-weight: 300;
+        transition: color 0.3s letter-spacing 0.4s;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+.nav-link:hover {
+    letter-spacing: 3px ;
+}
+.btn-gold {
+    background-color: #c2a96b;
+    color: #1d3324;
+    padding: 12px 24px;
+    border: none;
+      font-size: 2.4rem;
+    font-weight: 600;
+ font-family: 'LongaIberica-DEMO';
+    cursor: pointer;
+    transition: background-color 0.3s color 0.3s letter-spacing 0.4s;
+}
+
+.btn-gold:hover {
+    background-color: #5b4c38;
+    color: rgb(20, 243, 94);
+    letter-spacing: 3px;
+}
+
+.gallery-img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.card {
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+    margin-top: -10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.animated-text-wrap {
+    padding-bottom: 30px;
+    transition: 0.4s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Azonix';
+}
+
+.card:hover .animated-text-wrap {
+    padding-bottom: 20px;
+}
