@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Azonix';
-    src: url('../fonts/Azonix.otf');
+   src: url('fonts/azonix.otf');
 }
 @font-face {
     font-family: 'LongaIberica-DEMO';
-    src: url('../fonts/LongaIberica-DEMO.ttf');
+    src: url('fonts/LongaIberica-DEMO.ttf');
 }
 .hero-section {
     background-color: #1d3324;
